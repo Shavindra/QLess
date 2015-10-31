@@ -12,15 +12,28 @@ Template.admin.events({
   'submit form': function(event) {
     event.preventDefault();
 
-    var text = $(event.target).find('[name=text]').val();
-    News.insert({ text: text, date: new Date });
+    var username = $(event.target).find('[type=text]').val();
+    var password = $(event.target).find('[type=password]').val();
 
-    alert('Saved latest news');
+      console.log(username, password);
+      
+      var currentUser,
+          adminUser = Meteor.customUsers().admin,
+          customer = Meteor.customUsers().customer;
+      
+      localStorage.clear();
+    currentUser = username == adminUser.name ? adminUser : customer;
+      
+      Meteor.customSession().setSession(currentUser);
+      
+      
+
+   // alert('Saved latest news');
   },
   
   'click .login': function() {
-      console.log('click login');
-      Meteor.go('/feed');
+     // console.log('click login');
+      
    // Meteor.loginWithTwitter();
   }
     
