@@ -26,7 +26,7 @@ Template.admin.events({
       
       Meteor.customSession().setSession(currentUser);
       
-      currentUser.role == 'admin' ? Router.go('/feed') : Router.go('recipes');
+      currentUser.role == 'admin' ? Router.go('recipes') : Router.go('feed');
 
       
       // alert('Saved latest news');
