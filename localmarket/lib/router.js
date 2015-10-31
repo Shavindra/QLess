@@ -15,6 +15,10 @@ Router.configure({
   notFoundTemplate: 'notFound'
 });
 
+
+
+
+
 if (Meteor.isClient) {
   // Keep showing the launch screen on mobile devices until we have loaded
   // the app's data
@@ -69,15 +73,34 @@ AdminController = RouteController.extend({
   }
 });
 
+
+//Access control
+var OnBeforeActions;
+OnBeforeActions = {
+    loginRequired: function(pause) {
+        var userRole = 'user';
+      if (userRole != 'admin') {
+        console.log('not authorised');
+        this.redirect('/feed');
+        return pause();
+      } 
+    }
+};
+
 Router.route('home', {
   path: '/'
 });
 
 Router.route('feed');
 
-Router.route('recipes');
+Router.route('recipes', {
+    before: OnBeforeActions.loginRequired
+ });
 
-Router.route('bookmarks');
+Router.route('bookmarks', {
+    
+    before: OnBeforeActions.loginRequired
+});
 
 Router.route('about');
 

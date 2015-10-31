@@ -14,6 +14,14 @@
         <h1 class="title-admin">Forbidden</h1>
         
         {{#unless currentUser}}
+         <div class="login-form">
+             <div class="field">
+                 <input type="text" placeholder="username">
+             </div>
+              <div class="field">
+                 <input type="password" placeholder="password">
+             </div>
+         </div>
           <a class="login">Log in with Twitter</a>
         {{/unless}}
       {{/if}}
