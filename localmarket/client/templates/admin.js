@@ -22,13 +22,14 @@ Template.admin.events({
           customer = Meteor.customUsers().customer;
       
       localStorage.clear();
-    currentUser = username == adminUser.name ? adminUser : customer;
+      currentUser = username == adminUser.name ? adminUser : customer;
       
       Meteor.customSession().setSession(currentUser);
       
-      
+      currentUser.role == 'admin' ? Router.go('/feed') : Router.go('recipes');
 
-   // alert('Saved latest news');
+      
+      // alert('Saved latest news');
   },
   
   'click .login': function() {

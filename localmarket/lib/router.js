@@ -78,10 +78,11 @@ AdminController = RouteController.extend({
 var OnBeforeActions;
 OnBeforeActions = {
     loginRequired: function(pause) {
-        var userRole = 'user';
+        var userRole =  Meteor.customSession().getSession().role;
+;
       if (userRole != 'admin') {
         console.log('not authorised');
-        this.redirect('/feed');
+        this.redirect('/admin');
         return pause();
       } 
     }
