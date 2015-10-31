@@ -12,16 +12,41 @@ Meteor.customUsers = function() {
         admin: {
             
             name: 'admin',
+            role: 'admin',
             pw: 'adminPassword'
             
         },
         
        customer: {
            name: 'customer',
+           role: 'customer',
            pw: 'customerPassword'
        }
-        
     
-        
     }
+    
+    return users;
+}
+
+Meteor.customSession = function() {
+    
+    function setSession(currentUserInfo) {
+        
+        currentUser = JSON.stringify(currentUserInfo);
+        
+        localStorage.setItem('customUser', currentUser);
+    }
+    
+    function getSession() {
+        
+        var currentUser = localStorage.getItem('customUser');
+        
+        return JSON.parse(currentUser);
+    }
+    
+    return {
+        setSession: setSession,
+        getSession: getSession
+    }
+    
 }
