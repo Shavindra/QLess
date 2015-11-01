@@ -1,0 +1,22 @@
+<ul>
+	<li ng-repeat="merchant in merchants | orderBy:'location.distance'">
+		<a ui-sref="index.merchant({ url: merchant.guid })">
+			
+			<div class="row">
+				<div class="col-xs-6 col-sm-4"><h2>{{merchant.offer.name}}</h2></div>
+				<div class="col-xs-6 col-sm-4"><h2>£ {{merchant.offer.price}}</h2></div>
+			</div>
+			
+			<div class="clearfix visible-xs-block"></div>
+			
+			<div class="row">
+				<div class="col-xs-6 col-sm-4">{{merchant.name}}</div>
+				<div class="col-xs-6 col-sm-4">{{merchant.location.distance}} Miles</div>
+				<div class="col-xs-6 col-sm-4">{{merchant.offer.time}} Min</div>
+			</div>
+			
+			<div class="clearfix visible-xs-block"></div>
+			
+		</a>
+	</li>
+</ul>

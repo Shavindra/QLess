@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "5635dbaa737f06fa42bbc306",
+    "index": 0,
+    "guid": "a05e84d0-3903-493a-89ea-41f54270e00a",
+    "isActive": false,
+    "name": "Qualitern",
+    "description": "Occaecat pariatur dolore ex eiusmod qui ullamco in. Sunt amet aliqua ea esse do Lorem aute do. Eiusmod ut ea aliqua velit aliquip ipsum voluptate. Cillum ullamco proident exercitation excepteur labore excepteur fugiat pariatur aliqua anim ullamco adipisicing esse. Occaecat non ad quis id.",
+    "location": {
+      "address": "929 Hoyts Lane, Westphalia, Montana, 1779",
+      "distance": 1,
+      "latitude": "-16.654228",
+      "longitude": "167.285465"
+    },
+    "offer": {
+      "guid": "97be17fb-ef86-4f33-bd85-f092252651a3",
+      "name": "ad",
+      "description": "Reprehenderit labore aliquip qui dolore consequat. Reprehenderit veniam ad labore eu enim minim cupidatat aliqua aliqua Lorem officia sint ea. Laborum fugiat veniam elit ut reprehenderit Lorem do proident deserunt do.",
+      "time": 47,
+      "price": 5
+    }
+  },
+  {
+    "_id": "5635dbaa125a7d720ed91bfa",
+    "index": 1,
+    "guid": "60f37899-9bc6-44b6-8799-b67f9ae166ab",
+    "isActive": false,
+    "name": "Equitax",
+    "description": "Tempor consectetur magna ad commodo eu sunt sint pariatur irure laborum culpa consequat consectetur reprehenderit. Ut enim ut sit Lorem fugiat minim enim esse commodo elit occaecat amet quis. Exercitation eu fugiat proident culpa reprehenderit deserunt laboris reprehenderit. Ex aliqua fugiat dolor dolor aliqua ex consequat.",
+    "location": {
+      "address": "142 Bond Street, Salvo, New Jersey, 7552",
+      "distance": "0.7",
+      "latitude": "-45.328685",
+      "longitude": "155.460191"
+    },
+    "offer": {
+      "guid": "a80f0bbc-f525-4628-8084-9b3da286f7d2",
+      "name": "irure",
+      "description": "Consectetur deserunt non nisi sit anim id nulla sint aute laborum in. Duis reprehenderit irure qui ad Lorem proident aliqua officia. Cupidatat esse adipisicing tempor culpa laboris sint sunt.",
+      "time": 21,
+      "price": 3
+    }
+  },
+  {
+    "_id": "5635dbaa498b11af9bb91c54",
+    "index": 2,
+    "guid": "19125182-1b4a-4614-91d0-5e4220c5bb0d",
+    "isActive": true,
+    "name": "Tubalum",
+    "description": "Nostrud laborum fugiat consequat reprehenderit pariatur id quis do aute ex pariatur ullamco pariatur sunt. Ad cillum eiusmod exercitation dolor quis duis sunt ad aliqua eu ex non. Occaecat nostrud pariatur in aliquip dolor aliqua do aliqua. Amet fugiat elit incididunt laborum exercitation culpa ea qui.",
+    "location": {
+      "address": "595 Harway Avenue, Savannah, Iowa, 462",
+      "distance": 1,
+      "latitude": "-11.512553",
+      "longitude": "121.831442"
+    },
+    "offer": {
+      "guid": "4ab37b08-d9ba-4e48-bd89-96b3be8c6474",
+      "name": "voluptate",
+      "description": "Incididunt enim dolore quis mollit labore amet ad magna reprehenderit aute enim laborum. Consectetur in pariatur aute laborum minim adipisicing enim quis fugiat irure excepteur duis exercitation. Laborum cillum eu sunt ullamco irure. Mollit veniam nisi voluptate voluptate.",
+      "time": 12,
+      "price": 5
+    }
+  },
+  {
+    "_id": "5635dbaafb2b4785a13c912b",
+    "index": 3,
+    "guid": "598c764a-a5d0-4f3b-9438-117d55f7630c",
+    "isActive": false,
+    "name": "Bedder",
+    "description": "Minim elit tempor amet ad tempor deserunt. Laborum excepteur id labore quis non consectetur. Quis mollit sunt ex occaecat occaecat nisi eu sint aute est. Nisi commodo dolore velit consectetur elit in adipisicing magna ipsum incididunt nostrud laboris consectetur Lorem. Lorem reprehenderit Lorem et et occaecat aute. Cupidatat officia exercitation reprehenderit eiusmod aliqua adipisicing laborum anim tempor nostrud do aute velit.",
+    "location": {
+      "address": "736 Farragut Place, Shindler, Mississippi, 8826",
+      "distance": "0.9",
+      "latitude": "-3.597931",
+      "longitude": "-91.822161"
+    },
+    "offer": {
+      "guid": "c0b8114b-5df5-4561-8c3e-97a6ec560810",
+      "name": "sit",
+      "description": "Commodo ut amet ullamco culpa nostrud mollit incididunt elit quis veniam aute. Laboris culpa officia quis ad ipsum aliqua voluptate consequat amet quis dolore. Id labore pariatur nostrud officia cillum. Consequat magna commodo ad tempor qui aliquip ex mollit occaecat. Non ut voluptate esse ad consectetur ullamco.",
+      "time": 1,
+      "price": 6
+    }
+  },
+  {
+    "_id": "5635dbaaeff4aa5390841d60",
+    "index": 4,
+    "guid": "cad24684-7d1f-4105-838d-32ad262f4e8e",
+    "isActive": true,
+    "name": "Spacewax",
+    "description": "Anim elit ex sint tempor fugiat aliqua ex nisi cupidatat exercitation pariatur laboris Lorem. Sint amet amet nisi sit adipisicing exercitation irure sunt et. Duis ad eiusmod non excepteur culpa.",
+    "location": {
+      "address": "197 Humboldt Street, Robbins, Virgin Islands, 8400",
+      "distance": "0.8",
+      "latitude": "12.740409",
+      "longitude": "27.517204"
+    },
+    "offer": {
+      "guid": "e5d93230-f768-4440-9de8-05def96bf927",
+      "name": "irure",
+      "description": "Reprehenderit do est sit in. Cupidatat sit amet Lorem anim sunt est nulla dolor ea consectetur. Eu quis nisi incididunt aute est aute ullamco veniam incididunt veniam nulla magna laborum. Fugiat pariatur reprehenderit culpa irure elit dolore id incididunt nostrud dolore elit velit ut. In qui duis sit cillum elit deserunt Lorem fugiat sunt proident et eu esse. Ut duis tempor excepteur tempor nulla nulla et fugiat eiusmod eiusmod dolore officia. Labore in veniam cillum pariatur nostrud incididunt sint pariatur dolore excepteur exercitation adipisicing nisi reprehenderit.",
+      "time": 4,
+      "price": 5
+    }
+  },
+  {
+    "_id": "5635dbaa44051c59c1c4b68b",
+    "index": 5,
+    "guid": "e2ad4541-3f54-4021-9be8-39e611eff9b0",
+    "isActive": false,
+    "name": "Updat",
+    "description": "Velit ullamco et ad aute occaecat. Sunt laboris cillum sint cillum mollit dolore ut laboris adipisicing cillum excepteur commodo Lorem. Tempor ex qui amet nulla amet. Cillum labore dolore occaecat culpa cillum dolor reprehenderit.",
+    "location": {
+      "address": "118 Randolph Street, Hiko, Federated States Of Micronesia, 5642",
+      "distance": 0,
+      "latitude": "-8.997797",
+      "longitude": "118.255747"
+    },
+    "offer": {
+      "guid": "49236884-cdf7-4111-830b-d6b2e3d9cf82",
+      "name": "duis",
+      "description": "Est dolor fugiat pariatur elit excepteur anim quis. Et sunt irure cillum enim magna voluptate. Magna cupidatat amet ad laborum irure. Dolore mollit cupidatat commodo aute voluptate. Laboris nostrud est deserunt sint quis ut labore culpa.",
+      "time": 15,
+      "price": 2
+    }
+  },
+  {
+    "_id": "5635dbaa1b149c3bca35018b",
+    "index": 6,
+    "guid": "40d20c2e-e7c6-4b4a-8487-60487e18a267",
+    "isActive": false,
+    "name": "Bluegrain",
+    "description": "Eiusmod aliquip fugiat nulla cupidatat. Tempor ad aute do aliquip sit nostrud consequat laborum sit amet est ut. Fugiat ad cillum et irure est sint ea elit enim mollit. Elit culpa id aute mollit nulla anim.",
+    "location": {
+      "address": "901 Ferris Street, Hinsdale, Delaware, 6945",
+      "distance": "0.6",
+      "latitude": "-0.26915",
+      "longitude": "174.796106"
+    },
+    "offer": {
+      "guid": "ea2cc14e-2a24-418e-8484-cf47af0f6290",
+      "name": "ex",
+      "description": "Tempor culpa laboris dolore aliqua fugiat amet. Nulla enim dolore ut nulla dolor quis tempor ullamco proident. Commodo incididunt voluptate anim incididunt eiusmod non Lorem voluptate est. Dolore Lorem laborum irure veniam in Lorem proident tempor mollit tempor qui deserunt exercitation esse. Pariatur do culpa laboris ad nulla exercitation proident. Reprehenderit minim elit id deserunt veniam. Pariatur do irure sint amet nulla ipsum est nulla amet occaecat ex ut.",
+      "time": 30,
+      "price": 3
+    }
+  },
+  {
+    "_id": "5635dbaa7243dfe86ed79c32",
+    "index": 7,
+    "guid": "8876ec78-7185-41d4-b442-21bb47105f01",
+    "isActive": false,
+    "name": "Isoswitch",
+    "description": "Qui reprehenderit tempor et nulla. Sit ullamco culpa quis consectetur labore cupidatat adipisicing Lorem incididunt amet ad. Anim amet reprehenderit nostrud in culpa. Excepteur deserunt tempor non elit Lorem dolore eiusmod voluptate nisi anim laboris aute enim aliqua. Fugiat sunt laboris voluptate labore ullamco esse mollit. Amet magna commodo sit consectetur irure pariatur eiusmod elit enim commodo mollit sint.",
+    "location": {
+      "address": "982 Anchorage Place, Waterford, California, 3176",
+      "distance": "0.7",
+      "latitude": "9.164103",
+      "longitude": "6.799474"
+    },
+    "offer": {
+      "guid": "e657199e-8b98-4a3c-beb8-f449ac6eb9ba",
+      "name": "nisi",
+      "description": "Aliquip cupidatat tempor ut qui adipisicing proident ipsum do. Velit elit do nisi et occaecat. Enim voluptate deserunt ad qui sit sit nulla nulla velit sunt incididunt excepteur nostrud Lorem. Ea esse tempor nisi sint laboris culpa qui ipsum aute nostrud ea. Aliquip cillum et adipisicing incididunt excepteur.",
+      "time": 31,
+      "price": 3
+    }
+  }
+]
